@@ -1,6 +1,7 @@
 {
   "name": "myportfolioweb",
   "private": true,
+  "homepage": "https://nicolle.github.io/MyPortfolioWeb/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
