@@ -6,6 +6,5 @@ import App from './Components/App/App'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
-    <p>hola mundo</p>
   </StrictMode>,
 )
