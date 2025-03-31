@@ -13,5 +13,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: diistt  # La carpeta que contiene tu sitio web
+          folder: dist  # La carpeta que contiene tu sitio web
           branch: gh-pages  # La rama donde se publicará el sitio
