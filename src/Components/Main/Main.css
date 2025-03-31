@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.main {
+  margin-left: 130px;
+  margin-right: 130px;
+  /* width: 700px; */
+  display: flex;
+  flex-direction: row;
+  /* gap: 50px; */
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.main__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.main__title {
+  font-size: 70px;
+  margin: 100px 0px 0px;
+  padding-bottom: 0px;
+}
+
+.main__name {
+  color: #b27fe2;
+  /* color:#704a93; */
+}
+
+.main__profession {
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.main__description {
+  text-justify: auto;
+  width: 600px;
+}
+
+.main__social {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 20px;
+  justify-content: center;
+  /* padding: 10px;
+  border-radius: 5px;
+  background-color: #704a9336; */
+}
+
+.main__social__cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #b27fe2;
+  border-radius: 5px;
+}
+
+.main__social__cv-text {
+  padding-top: 2px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.573);
+  justify-self: center;
+}
+
+.main__social__cv-img {
+  width: 18px;
+  height: 18px;
+  align-self: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main__image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}

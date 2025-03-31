@@ -1,0 +1,45 @@
+.about{
+    background-color: rgba(122, 50, 190, 0.26);
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 5px;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+}
+
+.about__title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.about__description{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 120px;
+    
+}
+
+.about__description-profile{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.about__tech{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about__tech-img{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+
+}

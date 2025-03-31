@@ -1,0 +1,15 @@
+.navbar__dropdown .btn{
+    border: 0px !important;
+    background-color: #8348873e !important;
+    width: 90px !important;
+    /* height: 30px !important;
+    min-Width: 120px !important; */
+}
+
+.navbar__dropdown-menu{
+    position: absolute;
+    transform: translate3d(0px, 38px, 0px) !important;
+    top: 0px !important;
+    left: 0px;
+    will-change: transform;
+}
