@@ -7,11 +7,24 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
       
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # o la versión que uses
+          
+      - name: Install dependencies
+        run: npm ci # usa 'npm ci' en lugar de 'npm install' para instalar exactamente según package-lock.json
+        
+      - name: Build project
+        run: npm run build
+        
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist  # La carpeta que contiene tu sitio web
-          branch: gh-pages  # La rama donde se publicará el sitio
+          folder: dist  # Esta es la carpeta correcta para Vite
+          branch: gh-pages
