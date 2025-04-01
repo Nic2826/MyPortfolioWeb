@@ -1,0 +1,29 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: auto;
+    
+    padding-bottom: 60px;
+    background-color: rgba(122, 50, 190, 0.26);
+}
+
+.contact__title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.contact__description{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
+    max-width: 1000px;
+}

@@ -4,6 +4,7 @@ import { LanguageProvider } from "../../contexts/LanguageContext";
 import Main from "../Main/Main";
 import About from "../About/About";
 import Cards from "../Cards/Cards";
+import Contact from '../Contact/Contact';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
         <Main />
         <About />
         <Cards />
+        <Contact/>
       </div>
     </LanguageProvider>
   );

@@ -1,14 +1,13 @@
 @import "tailwindcss";
 
 .main {
+  margin-top: 100px;
   margin-left: 130px;
   margin-right: 130px;
-  /* width: 700px; */
   display: flex;
   flex-direction: row;
-  /* gap: 50px; */
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .main__text{
