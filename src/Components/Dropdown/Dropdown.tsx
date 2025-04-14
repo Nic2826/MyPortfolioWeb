@@ -10,7 +10,6 @@ import {
 
 export default function DropdownButton() {
   const [dropdown, setDropdown] = useState(false);
-//   const [dropdonName, setDropdownName] = useState("English");
   const { language, setLanguage } = useContext(LanguageContext);
 
   const handleDropdown = () => {

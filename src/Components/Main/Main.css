@@ -1,31 +1,33 @@
-@import "tailwindcss";
-
 .main {
-  margin-top: 100px;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin: auto;
   display: flex;
   flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 120px;
 }
 
-.main__text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 50px;
+.main__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 300px;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main__title {
   font-size: 70px;
-  margin: 100px 0px 0px;
   padding-bottom: 0px;
+  align-self: center;
 }
 
 .main__name {
   color: #b27fe2;
-  /* color:#704a93; */
 }
 
 .main__profession {
@@ -47,9 +49,6 @@
   gap: 40px;
   margin-top: 20px;
   justify-content: center;
-  /* padding: 10px;
-  border-radius: 5px;
-  background-color: #704a9336; */
 }
 
 .main__social__cv {
@@ -61,11 +60,10 @@
 }
 
 .main__social__cv-text {
-  padding-top: 2px;
   margin-left: 5px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.573);
-  justify-self: center;
+  align-self: center;
 }
 
 .main__social__cv-img {
@@ -76,10 +74,33 @@
   margin-right: 5px;
 }
 
-.main__image{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-top: 100px;
-    margin-left: 50px;
+.main__social__cv:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  border-color: #704797;
+  background-color: #b27fe21a;
+}
+
+.main__social-Linkedin:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+  background-color: #b27fe2bc;
+}
+
+.main__social-Github:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+  background-color: #b27fe279;
+}
+
+.main__social-Github {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.main__social-Linkedin {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }

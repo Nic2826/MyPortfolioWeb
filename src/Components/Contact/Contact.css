@@ -1,29 +1,85 @@
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-margin: auto;
-    
-    padding-bottom: 60px;
-    background-color: rgba(122, 50, 190, 0.26);
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  line-height: 30px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  background-color: rgba(122, 50, 190, 0.26);
 }
 
-.contact__title{
-    font-size: 50px;
-    font-weight: bold;
-    padding: 10px 0px;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
+.contact__title {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px 0px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
 
-.contact__description{
-    font-size: 25px;
-    font-weight: 400;
-    padding: 10px 0px;
-    text-decoration: none;
-    list-style: none;
-    text-align: justify;
-    max-width: 1000px;
+.contact__description {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px 0px;
+  text-decoration: none;
+  list-style: none;
+  text-align: justify;
+  max-width: 1500px;
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.contact__social-copyright {
+  opacity: 0.5;
+  padding-top: 50px;
+}
+
+.contact__social-email {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.contact__social-email:hover {
+  color: rgba(255, 255, 255, 0.804);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.contact__social-linkedin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contact__social-github {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contact__social-linkedin:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.298);
+}
+
+.contact__social-github:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.298);
 }

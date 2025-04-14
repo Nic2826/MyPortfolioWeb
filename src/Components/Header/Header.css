@@ -1,18 +1,14 @@
 .header{
     background-color: rgb(83, 32, 130);
-    /* border: 1px solid white; */
-    /* margin: 0px 100px; */
     display: flex;
     justify-content: space-between;
-    /* padding: 2px 20px; */
-    /* border-radius: 15px; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    max-width: 1550px;
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .header__logo{
@@ -21,14 +17,22 @@
     padding-top: 6px;    
 }
 
-.navbar{
-    padding-right: 30px;
+.navbar__dropdown:hover{
+    transform: scale(1.05);
+
 }
 
-
-
 .navbar__item{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-right: 30px;
+    font-weight: 500;
+}
+
+.navbar__item:hover{
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+
 }

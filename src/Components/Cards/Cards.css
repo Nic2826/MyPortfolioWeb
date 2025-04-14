@@ -1,7 +1,8 @@
 .projects{
   margin: auto;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  line-height: 23px;
 }
 
 .projects_title {
@@ -23,37 +24,54 @@
 }
 
 .card_item {
+  display: grid;
+  grid-template-rows: auto min-content 1fr;
   border: 2px solid wheat;
   border-radius: 5%;
   max-width: 450px;
-  height: 700px;
+  height: 650px;
   margin-bottom: 100px;
   padding: 20px;
+  
+}
+
+.card_description-text{
+  opacity: 0.5;
 }
 
 .card_title {
   font-size: 30px;
   font-weight: bold;
   padding-top: 10px;
-  /* padding-left: 20px; */
   color: #bfa7d5;
   text-decoration: none;
   list-style: none;
+  grid-row: 2;
 }
 
 .card_description {
   font-size: 18px;
-  /* padding: 20px; */
   color: #ffffff;
   text-decoration: none;
   max-height: 600px;
   text-align: justify;
+  grid-row: 3;
 }
 
 
 .card_image {
-  /* padding: 10px; */
-  max-width: 400px;
+  width: 100%; 
+  height: 250px; 
   border-radius: 5%;
   max-height: fit-content;
+  grid-row: 1;
+  object-fit:cover;
+}
+
+.card_item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #8326c2;
 }
