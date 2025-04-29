@@ -26,7 +26,7 @@ export default function Main() {
           <div className="main__social__cv">
             <a
               className="main__social__cv-text"
-              href="https://drive.google.com/file/d/1VS_kgmw3GbzS95b-8mOkJhgHzhJO2DZq/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1Km0BGx56_gdFt6UWP9XTZbn3Wq68cxIj"
               target="_blank"
               title="Download CV"
             >
